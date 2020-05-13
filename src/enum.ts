@@ -57,18 +57,18 @@ const btest = 0
 console.log(btest === Direction.Up) // true
 
 //联合枚举类型
-enum Direction {
+enum Directionss {
     Upu,
     Downu,
     Leftu,
     Rightu
 }
-declare let ctest: Direction
+declare let ctest: Directionss
 enum Animal {
     Dog,
     Cat
 }
-ctest = Direction.Up // ok
+ctest = Directionss.Upu // ok
 //ctest = Animal.Dog // 不能将类型“Animal.Dog”分配给类型“Direction”
 //可以看出我们把ctest声明了一个联合类型Direction.Up | Direction.Down | Direction.Left | Direction.Right，只有这四个类型其中的成员才符合要求。
 
