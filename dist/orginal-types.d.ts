@@ -1,0 +1,12 @@
+declare function greeter(person: string): string;
+declare const user = "jane User";
+declare const isLoading: boolean;
+declare const decLiteral: number;
+declare const book: string;
+declare function warnUser(): void;
+declare const test: void;
+declare let a: undefined;
+declare let b: null;
+declare const sym1: unique symbol;
+declare const sym2: unique symbol;
+declare const max: bigint;
