@@ -46,5 +46,5 @@ function assigned(a: number, b?: number, c?: number, d?: number): IDirection {
 
 assigned(1)
 assigned(1, 2)
-// assigned(1, 2, 3) 会报错
+// assigned(1, 2, 3) 会报错的
 assigned(1, 2, 3, 4)
