@@ -3,6 +3,7 @@
     "target": "es5", // 指定 ECMAScript 目标版本: 'ES5'
     "module": "commonjs", // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
     "moduleResolution": "node", // 选择模块解析策略
+    "emitDecoratorMetadata": true, //Reflect Metadata
     "experimentalDecorators": true, // 启用实验性的ES装饰器
     "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入。
     "sourceMap": true, // 把 ts 文件编译成 js 文件的时候，同时生成对应的 map 文件
